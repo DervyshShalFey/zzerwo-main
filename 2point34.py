@@ -19,7 +19,7 @@ try:
         x-=10
         a2+=1
 
-    print(f'Numeral of sum of a2a1 and b: {a2} and {x}')
+    print(f'Numerals of sum of a2a1 and b: {a2} and {x}')
 except ValueError:
     print('Numerals must be numbers from 0 to 9!')
 except Exception:
