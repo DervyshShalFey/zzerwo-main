@@ -12,3 +12,10 @@ def iseven(x):
         return 'even'
     else:
         return 'odd' 
+
+def add_s(x, y):
+    if x == 1 or x%100==1:
+        return y
+    else:
+        y = y + 's'
+        return y
